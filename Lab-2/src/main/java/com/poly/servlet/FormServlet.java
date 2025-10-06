@@ -3,14 +3,12 @@ package com.poly.servlet;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
-import model.User;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-
 
 @WebServlet ("/form/update")
 public class FormServlet extends HttpServlet{
